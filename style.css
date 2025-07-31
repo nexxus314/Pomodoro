@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; 
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(91, 90, 99);
+  color: whitesmoke;
+}
+.app-wrapper {
+    background-color: #3f271a; 
+    padding: 40px;         
+    border-radius: 12px;   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+    width: 450px;          
+    text-align: center;    
+    
+}
+
+.pomodoro h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 30px
+    
+}
+.pomodoro p{
+    font-size:20px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.workmodes button,
+.timercontrols-buttons{
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  margin: 0 10px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+    
+          
+}
+.pomodoroimage {
+  padding-bottom: 20px; 
+  margin-bottom: 20px;
+  width: 100px; 
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 130px;
+  
+}
+.pomodoroimage img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.workmodes button{
+    font-size: 20px;
+    background-color:#e53e3e; 
+    margin: 10px 0px;
+    padding: 15px 40px;
+    font-family: 'Inter', sans-serif; 
+    border-radius: 30px;
+    
+}
+.workmodes button:hover {
+    background-color: #c53030;
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+#timerdisplay{
+  padding-bottom: 20px; 
+  margin-bottom: 20px;
+    font-size: 100px;
+    margin: 30px 20px;
+    color: blanchedalmond;
+    font-family: 'Inter', sans-serif; 
+    
+}
+#timerdisplay:hover{
+    color: #f0e68c;
+    transform: translateY(-2px);
+    transition: 0.3s;
+    font-size: 120px;
+}
+.timercontrols button{
+  background-color: rgb(87, 115, 240);
+  padding: 20px 28px;
+  font-size: 25px;
+  color: white;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif; 
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.timercontrols button:hover{
+  background-color: #067685;
+  transform: translateY(-2px);
+  
+}
