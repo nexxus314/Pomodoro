@@ -37,6 +37,17 @@ function startTimer(){
                 //the timer is finished, alert the user 
                 console.log('Time is Up!!');
                 clearInterval(timerInterval); //stop the timer
+
+
+
+                if (currentMode === 'Work') {
+                    alert('Work session is completed! Time for a break!');
+
+
+                    setMode('Break'); // Switch to Break mode
+                }else if(currentMode === 'Break'){
+                    alert('Break session is completed! time to get back to work!!');
+                    setMode('Work'); // Switch to Work mode
                 //now we will add the logic to swithc modes like breaks and timer here
                 return;
             }
