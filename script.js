@@ -48,6 +48,7 @@ function startTimer(){
                 }else if(currentMode === 'Break'){
                     alert('Break session is completed! time to get back to work!!');
                     setMode('Work'); // Switch to Work mode
+                }
                 //now we will add the logic to swithc modes like breaks and timer here
                 return;
             }
