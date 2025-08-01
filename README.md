@@ -31,8 +31,8 @@ The Pomodoro Technique is a time management method that uses a timer to break wo
 
 ## 📸 Preview
 
-![Pomodoro Screenshot]()  
-<!-- Replace with actual screenshot URL if needed -->
+![Pomodoro Screenshot](https://github.com/nexxus314/Pomodoro/blob/main/pomodorodemo.png)  
+
 
 ---
 
