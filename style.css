@@ -81,7 +81,7 @@ body {
 
 .workmodes button{
     font-size: 20px;
-    background-color:#e53e3e; 
+    background-color:#b13030; 
     margin: 10px 0px;
     padding: 15px 40px;
     font-family: 'Inter', sans-serif; 
@@ -89,7 +89,7 @@ body {
     
 }
 .workmodes button:hover {
-    background-color: #c53030;
+    background-color: #802828;
     transform: translateY(-2px);
     transition: 0.2s;
 }
